@@ -14,7 +14,7 @@
  <main>
   <section id="intro" class="view">
    <h1>Fehler erkennen und erklären</h1>
-   <p class="lead">Systematische Fehlersuche an einer Gas-Brennwertheizung</p>
+   <p class="lead">Vier Fragen zur systematischen Fehlersuche an einer Gas-Brennwertheizung</p>
    <div class="start-center">
     <form id="start-form">
      <label for="nickname" class="sr-only">Dein Spitzname für die Bestenliste</label>
@@ -26,13 +26,13 @@
   </section>
   <section id="quiz" class="view" hidden>
    <div class="section-top"><div class="participant-line"><p class="eyebrow" id="question-count"></p><span id="bonus-badge" class="bonus-badge" hidden>67 Bonus</span></div><span id="timer" class="time" aria-label="Bearbeitungszeit">00:00</span></div>
-   <progress id="progress" max="12" value="0" aria-label="Beantwortete Fragen"></progress>
+   <progress id="progress" max="4" value="0" aria-label="Beantwortete Fragen"></progress>
    <form id="question-form"><fieldset><legend id="question-title"></legend><div id="answers"></div></fieldset><p class="small" id="answer-count"></p><p id="quiz-status" role="status" aria-live="polite" aria-atomic="true"></p><div class="actions"><button type="button" id="previous" class="secondary">← Zurück</button><button type="submit" id="next" class="primary">Weiter →</button></div></form><a class="text-link small" href="handout.pdf" target="_blank" rel="noopener">Handout öffnen ↗</a>
   </section>
   <section id="result" class="view" hidden aria-labelledby="result-title"><p class="eyebrow">DEIN ERGEBNIS</p><h1 id="result-title"></h1><p id="result-detail" class="lead"></p><p id="result-bonus" class="bonus-summary" hidden></p><p id="save-status" role="status"></p><div class="actions"><button id="retry-save" class="primary" hidden>Speichern erneut versuchen</button><button id="result-board" class="primary">Zur Bestenliste →</button><button id="restart" class="secondary">Neuer Versuch</button></div><h2 class="review-heading">Deine Antworten im Überblick</h2><div id="review"></div></section>
   <section id="board" class="view" hidden><p class="eyebrow">DIE BESTEN ERGEBNISSE</p><h1>Bestenliste</h1><p>Punkte zuerst. Bei Gleichstand zählt die Zeit. Angezeigt werden die besten 100 Versuche.</p><div class="actions"><button id="refresh-board" class="secondary">Aktualisieren</button><button id="show-share" class="secondary">QR-Code teilen</button><button class="quiet back-button">Zurück</button></div><p id="mode-note" class="notice"></p><p id="board-status" role="status"></p><div class="table-wrap"><table><thead><tr><th scope="col">Platz</th><th scope="col">Name</th><th scope="col">Punkte</th><th scope="col">Zeit</th></tr></thead><tbody id="board-rows"></tbody></table></div><p class="small">Dein zuletzt gespeicherter Versuch ist markiert. Ohne Anmeldung sind Namen frei wählbar und nicht eindeutig.</p></section>
   <section id="share" class="view" hidden><p class="eyebrow">GEMEINSAM TESTEN</p><h1>Scannen. Mitmachen.</h1><p>Teile die veröffentlichte Quiz-Adresse mit deiner Klasse.</p><label for="share-url">Öffentliche Adresse der Quiz-Seite</label><input id="share-url" type="url" placeholder="https://DEIN-NAME.github.io/DEIN-REPOSITORY/"><div class="actions"><button id="make-qr" class="primary">QR-Code erzeugen</button><button id="copy-link" class="secondary">Link kopieren</button><button class="quiet back-button">Zurück</button></div><p id="share-status" role="status"></p><div id="qr-code" aria-label="QR-Code zur Quiz-Seite"></div><a id="qr-download" class="text-link" download="quiz-qr-code.png" hidden>QR-Code als PNG herunterladen ↓</a></section>
  </main>
- <dialog id="bonus-popup" aria-labelledby="bonus-popup-title" aria-describedby="bonus-popup-description"><span class="bonus-number" aria-hidden="true">67</span><h2 id="bonus-popup-title">67 Bonus freigeschaltet!</h2><p id="bonus-popup-description">Six seven! Dein Name gibt dir am Ende einen Fehler weniger: Ein falsches Ergebnis wird durch einen Bonuspunkt ausgeglichen. Maximal sind 12 Punkte möglich.</p><form method="dialog"><button class="primary" id="bonus-popup-close">Los geht’s!</button></form></dialog>
+ <dialog id="bonus-popup" aria-labelledby="bonus-popup-title" aria-describedby="bonus-popup-description"><span class="bonus-number" aria-hidden="true">67</span><h2 id="bonus-popup-title">67 Bonus freigeschaltet!</h2><p id="bonus-popup-description">Six seven! Dein Name gibt dir am Ende einen Fehler weniger: Ein falsches Ergebnis wird durch einen Bonuspunkt ausgeglichen. Maximal sind 4 Punkte möglich.</p><form method="dialog"><button class="primary" id="bonus-popup-close">Los geht’s!</button></form></dialog>
  <footer><span>Mirco Kornetzki · TH 3-4 · LFH8</span><span>Veröffentlicht am <time datetime="2026-11-10">10.11.2026</time></span></footer>
 </body></html>
